@@ -1,0 +1,27 @@
+.partnersSection {
+    width: 100%;
+    padding: 50px 20px;
+    background: linear-gradient(
+        151.81deg,
+        #3f485e 24.5%,
+        #49536b 53.53%,
+        #535e78 82.55%
+    );
+    min-height: 996px;
+
+    .partnersTitle {
+        color: var(--colorOrange) !important;
+    }
+
+    .partnersDescription {
+        color: var(--colorWhite);
+    }
+}
+
+.partners {
+    display: flex;
+    gap: 40px;
+    justify-content: center; 
+    flex-wrap: wrap;
+    margin: 100px auto 120px;
+}

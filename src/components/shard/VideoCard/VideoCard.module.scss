@@ -1,0 +1,63 @@
+/* components/VideoCard.module.scss */
+.videoCard {
+    align-items: center;
+    background-color: #3f485e;
+    border-radius: 25px;
+    display: flex;
+    min-height: 620px;
+    justify-content: space-evenly;
+    margin: 120px auto 0;
+    max-width: 100%;
+    width: 1440px;
+}
+
+.videoContainer {
+    border-radius: 20px;
+    cursor: pointer;
+    position: relative;
+    width: 555px;
+
+    &:hover .playButton {
+        opacity: 1;
+    }
+}
+
+.video {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.playButton {
+    align-items: center;
+    background-color: var(--colorWhite);
+    border-radius: 50%;
+    display: flex;
+    height: 90px;
+    justify-content: center;
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 90px;
+}
+
+.description {
+    color: var(--colorWhite);
+    font: normal 400 36px/46px 'Nobile';
+    text-align: left;
+    width: 630px;
+
+    span {
+        color: var(--colorOrange);
+    }
+}
+
+@media (max-width: 768px) {
+    .videoCard {
+        display: flex;
+        width: 100%;
+        gap: 50px;
+        flex-direction: column;
+        padding: 100px 0;
+    }
+}

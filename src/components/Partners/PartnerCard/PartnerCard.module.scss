@@ -1,0 +1,39 @@
+.partnerCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+    background-color: #fff;
+    border-radius: 25px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    position: relative;
+    max-width: 485px;
+    height: 440px;
+
+    .icon {
+        margin-bottom: 10px;
+        width: 237px;
+        height: 212px;
+        border-bottom: solid 1px rgba(0, 0, 0, 0.3);
+    }
+
+    .text {
+        margin-bottom: 10px;
+        font-size: 16px;
+        width: 425px;
+        font: normal 400 24px/27px 'Nobile';
+        color: #000000;
+    }
+
+    .line {
+        width: 344px;
+        position: absolute;
+        bottom: 0;
+        width: 344px;
+        height: 11px;
+        background: #eb6b2a;
+        opacity: 0.5;
+        border-radius: 50px 50px 0px 0px;
+    }
+}

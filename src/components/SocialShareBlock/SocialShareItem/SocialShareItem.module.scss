@@ -1,0 +1,15 @@
+.shareItem {
+    align-items: center;
+    display: flex;
+    height: 35px;
+    justify-content: center;
+    padding: 9px;
+    width: 35px;
+
+    &:hover {
+        background-color: var(--colorWhite);
+        border-radius: 50%;
+        border: 1px solid #e7e7ec;
+        box-shadow: 0px 8px 15px #8c98a41a;
+    }
+}

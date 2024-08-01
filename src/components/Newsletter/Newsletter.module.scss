@@ -1,0 +1,51 @@
+.newsletter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    max-width: 672px;
+    margin: 0 auto;
+}
+
+.title {
+    color: #fff;
+    font: normal 700 35px/45px 'Lora';
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.description {
+    font: normal 400 16px/30px 'Montserrat';
+    color: #ffffff;
+    margin-bottom: 20px;
+    text-align: center;
+
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.inputContainer {
+    display: flex;
+    width: 510px;
+    position: relative;
+    height: 60px;
+}
+
+.input {
+    flex: 1;
+    padding: 10px 20px;
+    border: 1px solid #ddd;
+    border-radius: 65px;
+    font: normal 400 16px/30px 'Montserrat';
+    outline: none;
+    width: 400px;
+
+    color: #77838f;
+}
+
+.button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}

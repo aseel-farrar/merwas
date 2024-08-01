@@ -1,0 +1,37 @@
+.aboutUs {
+  margin: 100px auto;
+}
+
+.aboutUsContent {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 85px;
+  justify-content: center;
+}
+
+.textContent {
+  .subtitle {
+    color: #eb6b2a;
+    font: normal 700 64px/72px 'Nobile';
+    padding-inline-start: 75px;
+  }
+
+  .paragraph {
+    color: #3f485e;
+    font: normal 700 40px/45px 'Nobile';
+    padding-inline-start: 75px;
+    padding-top: 0;
+    text-transform: capitalize;
+  }
+
+  .textGrid {
+    max-width: 970px;
+  }
+}
+
+.imageContainer {
+  border-radius: 20px;
+  flex: 1;
+  max-width: 626px;
+}

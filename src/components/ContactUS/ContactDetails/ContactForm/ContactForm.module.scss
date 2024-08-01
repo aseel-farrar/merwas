@@ -1,0 +1,101 @@
+.contactForm {
+    max-width: 50%;
+
+    .title {
+        font: normal 500 35px/51px 'Jost';
+        text-transform: capitalize;
+        color: #3f485e;
+        text-align: left;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+
+        label {
+            margin-bottom: 5px;
+            font: normal 400 16px/30px 'Jost';
+            text-transform: capitalize;
+            color: #3f485e;
+        }
+
+        input,
+        select {
+            margin-bottom: 20px;
+            padding: 20px;
+            width: 100%;
+            height: 60px;
+            border: 1px solid #e7e7ec;
+            box-shadow: 0px 8px 15px rgba(140, 152, 164, 0.1);
+            border-radius: 50px;
+            font: normal 400 14px/30px 'Jost';
+            text-transform: capitalize;
+            color: #77838f;
+        }
+
+        select {
+            appearance: none;
+            padding-bottom: 10px;
+            padding-top: 10px;
+        }
+
+        textarea {
+            margin-bottom: 20px;
+            padding: 20px;
+            max-width: 570px;
+            height: 200px;
+            border: 1px solid #e7e7ec;
+            border-radius: 25px;
+        }
+
+        .nameEmail {
+            display: flex;
+            justify-content: space-between;
+
+            > div {
+                width: 48%;
+            }
+
+            @media (max-width: 768px) {
+                flex-direction: column;
+
+                > div {
+                    width: 100%;
+                }
+            }
+        }
+
+        .sendButton {
+            background-color: #3f485e;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            margin-bottom: 10px;
+            width: 320px;
+            height: 60px;
+            border-radius: 50px;
+            font: normal 500 16px/23px 'Jost';
+            color: #ffffff;
+
+            &:hover {
+                background-color: #3a4b60;
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .contactForm {
+        max-width: 100%;
+
+        @media (max-width: 768px) {
+            flex-direction: column;
+
+            > div {
+                width: 100%;
+            }
+        }
+    }
+}

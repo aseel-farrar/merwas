@@ -1,0 +1,29 @@
+.gridWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(var(--columns), 1fr);
+        grid-template-rows: repeat(var(--rows), auto);
+        gap: 50px;
+        padding: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .gridWrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 50px;
+            padding: 0;
+            margin: auto;
+        }
+    }
+}

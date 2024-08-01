@@ -1,0 +1,27 @@
+.contactDetailsElement {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    margin-bottom: 20px;
+
+    .detailsWrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+
+        .title {
+            font: normal 500 18px/26px 'Jost';
+            margin: 0;
+            margin-bottom: 10px;
+            color: #3f485e;
+        }
+
+        .infoList {
+            font: normal 400 16px/24px 'Jost';
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+            color: #77838f;
+        }
+    }
+}

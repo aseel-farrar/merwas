@@ -1,0 +1,28 @@
+/* components/Card.module.scss */
+.card {
+    display: flex;
+    align-items: flex-start;
+    margin: 0;
+}
+
+.iconContainer {
+    margin-right: 20px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+
+    .title {
+        color: #3f485e;
+        font: normal 400 36px/39px 'Abdo Logo';
+        margin: 7px 0 0 0;
+    }
+
+    .description {
+        color: #3f485e;
+        font: normal 400 18px/20px 'Nobile';
+        letter-spacing: 0.03em;
+        text-align: justify;
+    }
+}

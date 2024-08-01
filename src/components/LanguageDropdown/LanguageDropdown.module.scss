@@ -1,0 +1,33 @@
+.dropdownContainer {
+    display: flex;
+    align-items: center; 
+    padding: 0;
+    gap: 6px;
+    justify-content: flex-end;
+    position: relative;
+
+    .dropdown {
+        font-size: 14px;
+        border-radius: 4px;
+        border: none;
+        background-color: #3f485e;
+        color: var(--colorWhite);
+        cursor: pointer;
+        height: 20px;
+        width: 100%;
+        appearance: none;
+        padding-right: 2rem;
+
+        &:focus {
+            outline: none;
+        }
+    }
+
+    .dropdownArrow {
+        position: absolute; 
+        right: 0.7rem; 
+        top: 50%;
+        transform: translateY(-50%);
+        cursor: pointer;
+    }
+}

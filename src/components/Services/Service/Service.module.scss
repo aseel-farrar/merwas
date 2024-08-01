@@ -1,0 +1,89 @@
+.service {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 50px;
+    max-height: 100%;
+    margin-top: 70px;
+
+    &.reverse {
+        flex-direction: row-reverse;
+    }
+}
+
+
+.images {
+    position: relative;
+    width:650px;
+    height: 300px;
+
+    .imageWrapper1,
+    .imageWrapper2,
+    .imageWrapper3 {
+        position: absolute;
+        width: 200px; 
+        height: 200px; 
+
+        img {
+            object-fit: cover;
+            border-radius: 25px;
+        }
+    }
+
+    .imageWrapper1 {
+        top: 0;
+        left: 0;
+        z-index: 5;
+        width: 278px; 
+        height: 366px; 
+    }
+
+    .imageWrapper2 {
+        top: 0;
+        right: 0;
+        width: 351px; 
+        height: 414px; 
+    }
+
+    .imageWrapper3 {
+        top: 70%;
+        left: 50%;
+        bottom: 0;
+        transform: translateX(-50%);
+        width: 268px; 
+        height: 352px; 
+    }
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+    text-align: start;
+
+    .serviceTitle {
+        margin-bottom: 10px;
+        font: normal 500 40px/72px 'Nobile';
+        color: #3f485e;
+    }
+
+    .serviceDescription {
+        font: normal 400 24px/57px 'Nobile';
+        color: #163c67;
+    }
+
+    .oddServiceTitle {
+        color: #ff7f50; 
+    }
+
+    .oddServiceDescription {
+        color: #fff;
+    }
+}
+
+
+  @media (max-width: 768px) {
+
+    .serviceTitle {
+        margin-top: 250px;
+    }
+  }

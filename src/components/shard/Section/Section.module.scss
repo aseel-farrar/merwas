@@ -1,0 +1,24 @@
+.section {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+
+  .title {
+    color: #3f485e;
+    font: normal 700 48px/54px 'Nobile';
+    margin-bottom: 10px;
+    text-align: center;
+    text-transform: capitalize;
+  }
+
+  .description {
+    color: #77838f;
+    font: normal 400 19px/30px 'Montserrat';
+    margin-bottom: 30px;
+    text-align: center;
+    text-transform: capitalize;
+    max-width: 580px;
+  }
+}

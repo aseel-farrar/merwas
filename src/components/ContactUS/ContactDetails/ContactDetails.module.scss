@@ -1,0 +1,17 @@
+.contactDetails {
+    .title {
+        font: normal 500 35px/51px 'Jost';
+        text-transform: capitalize;
+        color: #3f485e;
+    }
+    
+    .contactDetailsData {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 20px;
+    }
+
+    .ContactDetailsSocialMedia {
+        width: 200px;
+    }
+}

@@ -1,0 +1,38 @@
+.header {
+    position: relative;
+    min-height: 155px;
+    width: 100vw;
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 50px;
+        padding-right: 50px;
+        flex-wrap: wrap;
+
+        ul {
+            list-style: none;
+            margin: auto !important;
+            padding: 0;
+            display: flex;
+        }
+
+        li {
+            margin-right: 1rem;
+        }
+
+        a {
+            color: var(--colorWhite);
+            text-decoration: none;
+        }
+    }
+
+    .navTop {
+        background-color: var(--colorWhite);
+        height: 53px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+}

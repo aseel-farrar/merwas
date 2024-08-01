@@ -1,0 +1,90 @@
+.servicesSection {
+    background-color: #fff;
+    text-align: center;
+}
+
+.services {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.serviceWrapper {
+    padding: 20px;
+    min-height: 740px;
+}
+
+.oddService {
+    background-color: #3f485e;
+    color: #fff;
+}
+
+.evenService {
+    background-color: #fff;
+    color: #3f485e;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-bottom: 100px;
+    height: 580px;
+}
+
+/* Specific styles for the first and second oddService elements */
+.services > .oddService:nth-child(1) {
+    border-bottom-left-radius: 90px;
+    margin-left: 100px;
+    padding-right: 100px;
+    padding-left: 50px;
+    margin-top: 70px;
+}
+
+.services > .oddService:nth-child(3) {
+    border-top-right-radius: 90px; 
+    margin-right: 100px;
+    padding-left: 100px;
+    padding-left: 50px;
+}
+
+@media (max-width: 768px) {
+
+    .services {
+        width: 100%;
+        min-height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .serviceWrapper {
+        padding: 20px;
+        min-height: 740px;
+    }
+
+    .oddService {
+        background-color: #3f485e;
+        color: #fff;
+    }
+
+    .evenService {
+        background-color: #fff;
+        color: #3f485e;
+        padding-left: 100px;
+        padding-right: 100px;
+        margin-bottom: 100px;
+        height: 100%;
+    }
+    .serviceWrapper {
+        max-width: 768px;
+        padding: 40px;
+    }
+
+    /* Specific styles for the first and second oddService elements */
+    .services > .oddService:nth-child(1) {
+        margin: 0;
+        padding: 0;
+    }
+
+    .services > .oddService:nth-child(3) {
+        margin: 0;
+        padding: 0;
+    }
+}

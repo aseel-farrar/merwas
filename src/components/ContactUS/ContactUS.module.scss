@@ -1,0 +1,62 @@
+.contactUs {
+    padding: 50px 20px;
+    background-color: #fff;
+    text-align: center;
+
+    .heading {
+        margin: 20px auto 50px;
+        color: #3f485e;
+        font: normal 600 40px/58px 'Jost';
+        text-align: center;
+        text-transform: capitalize;
+    }
+
+    .contactContent {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin-bottom: 40px;
+        gap: 40px;
+
+        @media (max-width: 768px) {
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+
+    .contactDetails,
+    .contactForm {
+        width: 40%;
+
+        @media (max-width: 768px) {
+            width: 100%;
+            margin: 20px auto;
+            
+        }
+    }
+
+    .contactDetails {
+        text-align: left;
+
+        .detailsItem {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+
+            .icon {
+                margin-right: 10px;
+                font-size: 20px;
+            }
+
+            p {
+                margin: 0;
+            }
+        }
+    }
+
+    .mapContainer {
+        max-width: 1280px;
+        margin: 0 auto;
+    }
+}

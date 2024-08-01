@@ -1,0 +1,19 @@
+@import './fonts';
+
+@import url('https://fonts.googleapis.com/css2?family=Alef:wght@400;700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nobile:wght@400;500;700&display=swap');
+
+
+
+* {
+   box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: alef, sans-serif;  
+}
+
